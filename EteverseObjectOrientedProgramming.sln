@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encapsulation", "Encapsulat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectDesign1", "ObjectDesign1\ObjectDesign1.csproj", "{60B72F63-9CD2-4A00-9897-1635A15D49A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{BD6E0071-1BDD-4B32-9A91-990C5B878A8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameEngineFramework", "GameEngineFramework\GameEngineFramework.csproj", "{FCBFC289-B8F6-44A5-A228-736CCB1FA2C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{60B72F63-9CD2-4A00-9897-1635A15D49A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60B72F63-9CD2-4A00-9897-1635A15D49A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60B72F63-9CD2-4A00-9897-1635A15D49A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD6E0071-1BDD-4B32-9A91-990C5B878A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6E0071-1BDD-4B32-9A91-990C5B878A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6E0071-1BDD-4B32-9A91-990C5B878A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6E0071-1BDD-4B32-9A91-990C5B878A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCBFC289-B8F6-44A5-A228-736CCB1FA2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBFC289-B8F6-44A5-A228-736CCB1FA2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBFC289-B8F6-44A5-A228-736CCB1FA2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBFC289-B8F6-44A5-A228-736CCB1FA2C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
