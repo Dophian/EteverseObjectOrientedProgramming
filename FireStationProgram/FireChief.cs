@@ -2,7 +2,7 @@
 
 // 소방서장 클래스.
 // 소방관이면서 다른 소방관에게 불을 끄도록 지시할 수 있는 권한이 추가됨.
-public class FireChief : Firefighter
+public class FireChief : FirefighterBase
 {
     // 필드 - 1순위 소방관. 
     public Firefighter NumberOne {  get; set; }
