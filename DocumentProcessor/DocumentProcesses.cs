@@ -20,7 +20,7 @@ public class DocumentProcesses
     }
 
     // 자동 번역 기능.
-    public static void TranslateInfoFrench(Document document)
+    public static void TranslateIntoFrench(Document document)
     {
         Console.WriteLine("문서 프랑스어로 자동 번역 완료.");
     }

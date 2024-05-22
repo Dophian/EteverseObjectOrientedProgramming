@@ -20,9 +20,16 @@ class Program
 
         // 문서 처리기 설정.
         DocumentProcessor processor = new DocumentProcessor();
-        processor.AddDocumentProcess(new SpellcheckProcess());
-        processor.AddDocumentProcess(new RepaginateProcess());
-        processor.AddDocumentProcess(new TranslateIntoFrenchProcess());
+        processor.AddDocumentProcess(DocumentProcesses.SpellCheck);
+        processor.AddDocumentProcess(DocumentProcesses.Repaginate);
+        processor.AddDocumentProcess(DocumentProcesses.TranslateIntoFrench);
+        
+        
+        //DocumentProcessor processor2 = new DocumentProcessor();
+        //processor2.AddDocumentProcess(new SpellcheckProcess());
+        //processor2.AddDocumentProcess(new TranslateIntoFrenchProcess());
+
+
 
         // 문서 처리.
         Console.WriteLine("문서1 처리 중");
