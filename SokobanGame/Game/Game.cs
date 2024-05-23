@@ -13,7 +13,7 @@ namespace SokobanGame
 
         public Game()
         {
-            scene = new Scene("Map.txt");
+            scene = new Scene("stage.txt");
         }
 
         // 실행 메소드(인터페이스).
